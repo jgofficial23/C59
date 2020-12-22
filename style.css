@@ -1,0 +1,62 @@
+h1{
+  font-family: 'Frijole', cursive;
+    text-align:center;
+  
+}
+p{
+  text-align:justify;
+}
+#covid, #raina, img{
+  height:200px;
+  width:300px;
+}
+.menu{
+  list-style:none;
+      font-family:sans-serif;
+    position:absolute;
+    top:100px;
+    left:20px;
+    right:10px;
+    z-index:10;
+    cursor:pointer;
+    background-color: #dddddd;
+}
+.links, .active{
+    float:left;
+    color:black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: cursive;
+    font-size:20px;
+  border-right:1px solid black;
+  
+    
+     
+    
+}
+.active{
+    background-color: grey;    
+}
+li:last-child {
+  border-right: none;
+}
+.links:hover {
+    background-color: grey;
+}
+a {
+    text-decoration: none;
+  color:black;
+}
+
+
+.dropdown{
+    display: none;
+  position: absolute;
+}
+.links:hover .dropdown {
+  display: block;
+  background-color:#ddd;
+}
+.dropdown p:hover {background-color: grey;}
